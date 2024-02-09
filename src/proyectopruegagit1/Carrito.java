@@ -10,6 +10,10 @@ public class Carrito {
     private Llanta llanta;
     private Motor motor;
 
+    public Carrito() {
+
+    }
+
     public Carrito(String marca, int numeroPuertas, Color color, Llanta llanta, Motor motor) {
         this.marca = marca;
         this.numeroPuertas = numeroPuertas;

@@ -10,10 +10,11 @@ public class ProyectoPruegaGIT1 {
         boolean salir = false;
         while (salir == false) {
             System.out.println("Hola");
-            System.out.print("Ingrese su opcion");
+            System.out.print("Ingrese su opcion:");
             int op = sc.nextInt();
             switch (op) {
                 case 1:
+                    
                     System.out.println("");
                     break;
                 case 2:
